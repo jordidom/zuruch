@@ -1,0 +1,69 @@
+/* Importación de la fuente Poppins de Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    overflow-x: hidden;
+}
+
+/* Estilos para enlaces */
+a {
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Estilos específicos para diferentes secciones y elementos */
+.navbar {
+    background-color: #2a2b38; /* Color de fondo para la barra de navegación */
+    /* Otros estilos para la barra de navegación */
+}
+
+.nav-link {
+    color: #ffeba7; /* Color de los enlaces en la barra de navegación */
+    transition: color 200ms linear;
+}
+.nav-link:hover {
+    color: #c4c3ca; /* Cambio de color al pasar el mouse sobre el enlace */
+}
+
+/* Estilos para los títulos y textos */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffeba7; /* Color de los títulos */
+    /* Otros estilos de tipografía para títulos */
+}
+
+p {
+    color: #c4c3ca; /* Color de los párrafos */
+    /* Otros estilos de tipografía para párrafos */
+}
+
+/* Estilos para botones */
+.btn {
+    background-color: #ffeba7; /* Color de fondo de los botones */
+    color: #102770; /* Color del texto de los botones */
+    /* Otros estilos para los botones */
+}
+
+.btn:hover {
+    background-color: #102770; /* Cambio de color de fondo al pasar el mouse */
+    color: #ffeba7; /* Cambio de color de texto al pasar el mouse */
+}
+
+
+
+.form-style {
+    background-color: #2a2b38; /* Color de fondo para los campos de formulario */
+    color: #c4c3ca; /* Color del texto de los campos de formulario */
+    /* Otros estilos para los campos de formulario */
+}
+
+/* Otros estilos específicos según sea necesario */
