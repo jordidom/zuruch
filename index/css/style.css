@@ -719,28 +719,41 @@ body {
   padding-bottom: 3px !important;
 }
 
-#gtco-footer {
+#gtco-footer form {
   padding-bottom: 20px;
+  margin-right: 350px;
 }
-#gtco-footer h4 {
+#gtco-footer form h4 {
   font-family: "Lato-Medium";
   font-size: 24px;
   color: #1d3ede;
   margin-bottom: 30px;
 }
-#gtco-footer input, #gtco-footer textarea {
+#gtco-footer form input,
+#gtco-footer form textarea {
   background-color: white;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
   border-radius: 50px;
   max-width: 450px;
-  width: 100%;
+  width: 450%;
   height: 60px;
   border: none;
   margin-bottom: 30px;
   padding-left: 30px;
   color: #000;
 }
-#gtco-footer input::-webkit-input-placeholder, #gtco-footer input::-moz-placeholder, #gtco-footer input:-ms-input-placeholder, #gtco-footer input:-moz-placeholder, #gtco-footer textarea::-webkit-input-placeholder, #gtco-footer textarea::-moz-placeholder, #gtco-footer textarea:-ms-input-placeholder, #gtco-footer textarea:-moz-placeholder {
+#gtco-footer form a {
+  width: 150%;
+}
+
+#gtco-footer form input::-webkit-input-placeholder,
+#gtco-footer form input::-moz-placeholder,
+#gtco-footer form input:-ms-input-placeholder,
+#gtco-footer form input:-moz-placeholder,
+#gtco-footer form textarea::-webkit-input-placeholder,
+#gtco-footer form textarea::-moz-placeholder,
+#gtco-footer form textarea:-ms-input-placeholder,
+#gtco-footer form textarea:-moz-placeholder {
   color: #999999;
   font-family: "OpenSans-Regular";
   font-size: 18px;
@@ -752,11 +765,13 @@ body {
   padding-right: 20px;
   resize: none;
 }
-#gtco-footer .company-nav, #gtco-footer .services-nav {
+#gtco-footer .company-nav,
+#gtco-footer .services-nav {
   font-family: "OpenSans-Regular";
   font-size: 20px;
 }
-#gtco-footer .company-nav a, #gtco-footer .services-nav a {
+#gtco-footer .company-nav a,
+#gtco-footer .services-nav a {
   color: #666666;
   margin: 0;
   padding: 0;
