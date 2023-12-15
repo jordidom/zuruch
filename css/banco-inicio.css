@@ -11,6 +11,8 @@ body{
 	color: #c4c3ca;
 	background-color: #1f2029;
 	overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 .hidden{
   overflow: hidden;
@@ -106,16 +108,59 @@ body{
     transform: rotate(360deg);
   }
 }
-.logo {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	display: block;
-	z-index: 100;
-	transition: all 250ms linear;
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f241;
+  padding: 6px 20px;
+  margin: 0;
 }
-.logo img {
-	height: 46px;
-	width: auto;
-	display: block;
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.navbar-left span,
+.navbar-right i {
+  font-size: 15px;
+  margin-right: 11px;
+}
+.navbar-left span,
+.navbar-right .fab.fa-facebook,
+.navbar-right .fab.fa-instagram,
+.navbar-right .fab.fa-twitter {
+  color: #FFD700;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Agrega aquí tus estilos CSS personalizados */
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.navbar-bottom ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-bottom a {
+  text-decoration: none;
+  color: black;
 }
