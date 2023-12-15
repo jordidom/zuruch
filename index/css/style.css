@@ -721,7 +721,7 @@ body {
 
 #gtco-footer form {
   padding-bottom: 20px;
-  margin-right: 350px;
+  margin-right: 300px;
 }
 #gtco-footer form h4 {
   font-family: "Lato-Medium";
@@ -742,7 +742,7 @@ body {
   padding-left: 30px;
   color: #000;
 }
-#gtco-footer form a {
+#gtco-footer form button {
   width: 150%;
 }
 
