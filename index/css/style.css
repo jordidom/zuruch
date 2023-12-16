@@ -743,7 +743,7 @@ body {
   color: #000;
 }
 #gtco-footer form button {
-  width: 250%;
+  width: 170%;
 }
 
 #gtco-footer form input::-webkit-input-placeholder,
@@ -805,4 +805,26 @@ body {
   #gtco-footer .col-lg-6 {
     margin-bottom: 50px;
   }
+}
+
+/* Estilo para el botón de subida */
+#botonSubida {
+  opacity: 0;           /* Inicialmente transparente */
+  visibility: hidden;   /* Inicialmente no visible */
+  position: fixed;      /* Posición fija en la pantalla */
+  bottom: 20px;         /* 20px desde el fondo */
+  right: 20px;          /* 20px desde la derecha */
+  width: 50px;          /* Ancho del botón */
+  height: 50px;         /* Altura del botón */
+  border-radius: 50%;   /* Hacerlo circular */
+  z-index: 99;          /* Asegura que esté sobre otros elementos */
+  cursor: pointer;      /* Cursor en forma de mano al pasar sobre el botón */
+  border: none;         /* Eliminar borde */
+  background-color: transparent; /* Fondo transparente */
+  transition: opacity 1s, visibility 1s; /* Transición más suave */
+}
+
+#botonSubida img {
+  width: 100%;          /* El ancho de la imagen ocupa todo el botón */
+  height: auto;         /* Altura automática para mantener la proporción */
 }

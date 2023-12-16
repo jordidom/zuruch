@@ -75,3 +75,21 @@
 function myFunction(x) {
     x.classList.toggle("change");
 }
+
+// Función para subir al inicio de la página
+function subir() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+// Función para mostrar el botón cuando se hace scroll hacia abajo
+window.onscroll = function() {
+    var botonSubida = document.getElementById("botonSubida");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        botonSubida.style.opacity = 1;
+        botonSubida.style.visibility = 'visible';
+    } else {
+        botonSubida.style.opacity = 0;
+        botonSubida.style.visibility = 'hidden';
+    }
+};
